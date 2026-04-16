@@ -1,0 +1,169 @@
+/* reset & base styles */
+   * {
+      margin: 0;  
+      padding: 0;
+      box-sizing: border-box;
+   }
+
+   body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: whitesmoke;
+      height: 100vh;
+      width: 100%;
+
+   }
+   header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+
+   }
+   /*LOGO STYLING */
+   .logo  {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      /* space between icon and text */
+      font-weight: 800;
+      font-size: 20px;
+      font-weight: 800;
+      color: darkslateblue;
+   }
+
+   .navbar {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      gap:1rem;
+      font-weight: 700;
+      font-size: 15px;
+   }
+   .navbar a {
+      text-decoration: none;
+      background-color: lightgray;
+      padding: 15px 18px;
+      border-radius: 24px;
+      
+   }
+   /*BUTTON STYLING */
+   .btn {
+      padding: 16px 20px;
+      background-color: white;
+      color: #111;
+      border: 1px solid;
+      border-radius: 15px;
+      cursor: pointer;
+      right: 25px;
+
+   }
+
+   .section h1  {
+      position: absolute;
+      font-size: 150px;
+      font-weight: 500;
+      top: 23%;
+      left: 20%;
+      color: darkslateblue;
+                
+   }
+   .section h2 {
+      position: absolute;
+      font-size: 150px;
+      font-weight: 500;
+      bottom:33%;
+      left:50%;
+      color:darkslateblue ;
+   }
+   .img-container {
+      position: relative;
+           
+   }
+   .img-container img {
+      float: right;
+      margin-top: 350px;
+      left: 1rem;
+      object-fit: contain;
+
+   }
+   .ex1  {
+      width: 300px;
+      height: 200px; 
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+   }
+   .ex1 p {
+      position: absolute;
+      right: 100px;
+      bottom: 100px;
+      margin: 0;
+      font-size: 12px;
+      font-weight: 600;
+
+   }
+
+   .first-btn {
+      position: absolute; 
+      right: 220px;
+      bottom: 50px;
+      border-radius: 24px;
+      padding: 10px 16px;
+      background-color: darkslateblue;
+      color: #fff;
+   }
+   .second-btn {
+      position: absolute;
+      right: 90px;
+      bottom: 50px;
+      border-radius: 24px;
+      padding: 10px 16px;
+      background-color: darkslateblue;
+      color: #fff;
+   }
+   .first-btn .fa {
+      margin-right: 8px;
+
+   }
+
+   .second-btn .fa {
+      margin-right: 8px;
+   }
+  
+   .paragrah {
+      width: 300px;
+      height: 200px;
+      display: flex;
+      justify-content:flex-start;
+      align-items: flex-start;
+
+   }
+   .paragrah p {
+      position: absolute;
+      left: 80px;
+      bottom: 85px;
+      margin: 0;
+      font-size: 24px;
+      font-weight: 500;
+      color: darkslateblue;
+
+
+   }
+   .landing-page  {
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+   }
+
+    .landing-page img  {
+       height: 60%;
+       position: absolute;
+       top: 20rem;
+       left:26rem;
+      
+
+    }
+
+         
+
+    
